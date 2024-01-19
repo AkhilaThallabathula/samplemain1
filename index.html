@@ -1,0 +1,153 @@
+<html>
+    <head>
+    
+        <title>xml sample</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <div>
+            <p style="text-align: right;">(36-40)page</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;It is now clear that the access record for Individual 1 is inadequate, and that the third
+individual is not quite compatible with any type. It should be noted that throughout this
+example we have worked with uniform priors. These priors have no canonic justification
+but should be regarded as conventional. If specific information justifying other priors
+is available, they can easy be used, but this is seldom the case. The choice of prior will
+affect the assignment of individual to type in rare cases, but only when the access records
+            are very short and when the individual does not really fit to any type.</p>
+        <h2>CASE 2: SCHIZOPHRENIA RESEARCH –</h2>
+        <h2>CAUSALITY IN COMPLEX SYSTEMS</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This application is directed at understanding a complex system – the human brain
+(Hall, Larsson, & Sedvall 1999). Similar methods have been applied to undestanding
+complex engineered systems like paper mills, and economic systems. Many investigations on normal subjects have brought immense new knowledge about the normal
+function of the human brain, but mental disorders still escape understanding of their
+causes and cures (despite a large number of theories, it is not known why mental disorders
+develop except in special cases, and it is not known which physiological and/or
+psychological processes cause them). In order to get handles on the complex relationships between psychology, psychiatry, and physiology of the human brain, a data base
+is being built with many different types of variables measured for a large population of
+schizophrenia patients and control subjects. For each volunteering subject, a large
+number of variables are obtained or measured, like age, gender, age of admission to
+psychiatric care; volumes of gray and white matter and cerebrospinal fluid in several
+regions of the brain (obtained from MR images), genetic characterization, and measurements of concentrations in the blood of large numbers of substances and metabolites.
+For the affected subjects, a detailed clinical characterization is recorded.
+In this application, one can easily get lost. There is an enormous amount of relatively
+unorganized knowledge in the medical profession on the relationships and possible
+significances of these many variables. At the same time, the data collection process is
+costly, so the total number of subjects is very small compared, for example, with national
+registers that have millions of persons but relatively few variables for each of them. This
+means that statistical significance problems become important. A test set of 144 subjects,
+83 controls, and 61 affected by schizophrenia was obtained. This set was investigated
+with most methods described in this chapter, giving an understanding of the strongest
+relationships (graphical model), possible classifications into different types of the
+disease, etc. In order to find possible causal chains, we tried to find variables and variable
+pairs with a significant difference in co-variation with the disease, i.e., variables and
+tuples of variables whose joint distribution is significantly different for affected person
+relative to control subjects. This exercise exhibited a very large number of such variables
+and tuples, many of which were known before, others not. All these associations point
+to possible mechanisms involved in the disease, which seems to permeate every part of
+the organism. Using the methods finding directions of arrows in directed graphical
+    models, it turns out that in several cases independent variables like subject’s genotype or  age come out as caused by variables that are dependent, like blood tests or brain region
+sizes. This shows that application of causality methods give misleading results in a case
+like this, where it is known that many important variables cannot be measured, and are
+even not known. Thus it is not generally possible to see which is the effect and what is
+the cause, and many of the effects can be related to the strong medication given to all
+schizophrenic patients. In order to single out the more promising effects, an undirected
+graphical model approach was tried: Each variable was standardized around its mean,
+separately for affected and controls, and discretized. Then the pairs of variables were
+detected giving the highest probability to the left graph in Figure 4. Here D stands for
+the diagnosis (classification of the subject as affected or control), and A and B are the
+two variables compared. In the next graph, the relationship can be described as affecting
+the two variables independently, whereas in the next model where variables A and D are
+swapped, the relationship can be described as the disease affecting one of them but with
+a relationship to the other that is the same for affected and for controls. Many of the pairs
+selecting the first graph involved some parts of the vermis (a part of cerebellum).
+Particularly important was the subject age and posterior superior vermis volume pair. As
+shown in Figure 5, this part of the brain decreases in size with age for normal subjects.
+But for the affected persons the size is smaller and does not change with age. Neither does
+the size depend significantly on the duration of the disease or the medication received.
+Although these findings could be explained by confounding effects, the more likely
+explanation presently is that the size reduction occured before outbreak of the disease
+and that processes leading to the disease involve disturbing the development of this part
+of the brain. Several other variables were linked to the vermis in the same way; there was
+an association for control subjects but not for the affected ones, indicating that the
+normal co-variation is broken by the mechanisms of the disease. For variables that were<p>
+            
+            <p class="figure">Figure 4: Graphical models detecting co-variation.</p>
+            
+            <br>
+            <center>
+            <img class="img" src="Screenshot%202024-01-12%20153054.png">
+                <br>
+               
+            </center>
+             <p class="figure">Figure 5: Association between age and posterior superior vermis volume depends on
+diagnosis. The principal directions of variation for controls(o) and affected subjects
+(+) are shown.</p>
+            <br>
+            <center>
+                <img src="Screenshot%202024-01-12%20153647.png"></center>
+            <br>
+            <p>similarly co-varying with the vermis for controls and affected, there is a possibility that
+these regions are also affected by the disease similarly to the vermis.</p>
+        </div>
+        <center>
+            <h2>CONCLUSIONS</h2></center>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;
+This chapter emphasized the statistical approach to data mining. Meaning of data
+is therefore linked to its properties relative to statistical models. It also emphasizes a
+Bayesian approach, mainly because of its intellectual appeal. The techniques proposed
+for analytical models and EM classification can be applied to very large data sets,
+possibly after small tunings of the “obvious”algorithm. On the other hand, Markov Chain
+Monte Carlo methods are not used today on gigantic data sets. The methods described
+here are easy to apply using general-purpose software like C, Matlab, Octave, R, etc. An
+ongoing development is the adaptation of the simple family of models described here to
+large and complex applications. This leads to increased complexity. In the Bayesian
+paradigm, increasing complexity means using more detailed models and more application-specific assumptions in prior distributions. But this is also a complete description
+of what can be done, besides improving performance by careful implementation and
+integration, and carefully selected approximate computational methods.</p>
+        <center>
+            <h2>ACKNOWLEDGMENTS</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Discussions with students in my courses and Master of Science thesis writers are
+acknowledged. The media application was discussed with Erik Wallin, Tomas Olsson,
+and Henrik Dyberg. The schizophrenia case was produced in the HUBIN project (Hall et
+al., 1999)</p>
+            <h2>REFERENCES</h2>
+            
+                <ul style="text-align:start;">
+           <li> Arnborg, S. & Sjödin, G. (2001). On the foundations of Bayesianism. In A. MohammadDjarafi (ed.),Bayesian inference and maximum entropy methods in science and
+               engineering, 20th International Workshop Gif-sur-Yvette, 2000. pp. 61-71. College Park, MD: AIP Press.</li>
+                <br><li>Benferhat, S., Dubois, D.,& H. Prade,(1997). Nonmonotonic reasoning, conditional
+                    objects and possibility theory. Artificial Intelligence 92, 259–276.</li><br>
+                <li>Berger, J. O. (1985). Statistical decision theory and Bayesian Analysis. New York:
+                    Springer-Verlag</li><br><li>Bernardo, J. M. & Smith, A. F. (1994). Bayesian theory. New York: Wiley.</li><br><li>Berthold, M. &. Hand, D. (eds.).(1999). Intelligent data analysis, An introduction. New
+                    York: Springer-Verlag.</li><br><li>Carlin, B. P. & Louis, T. A. (1997). Bayes and empirical Bayes methods for data analysis.
+                    London: Chapman and Hall.</li><br><li>Cheeseman, P. & Stutz, J. (1995). Bayesian classification (AUTOCLASS): Theory and
+results. In U. M. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and R. Uthurusamy (Eds.),
+Advances in Knowledge Discovery and Data Mining. Menlo Park: AAAI Press,
+                    ISBN: 0-262-56097-6.</li><br><li>Cox, D. R. & Wermuth, N. (1996). Multivariate dependencies. London:Chapman and Hall.
+Dale, A. 1991. A history of inverse probability: From Thomas Bayes to Karl Pearson.
+                    Berlin: Springer.</li><br><li>de Finetti, B. (1974). Theory of probability. London: Wiley.</li><br><li>Doucet, A., de Freitas, N.,& Gordon, N. (2001). Sequential Monte Carlo Methods in
+                    practice. New York: Springer.</li><br><li>Gilks, W.R., Richardson, S., & Spiegelhalter, D.J. (1996). Markov Chain Monte Carlo in
+practice. London: Chapman and Hall.Glymour, C. & Cooper, G. (eds.). (1999).
+                    Computation, causation and discovery. Cambridge, MA: MIT Press.</li><br><li>Hall, H., Larsson, S. & Sedvall, G.(1999). HUBIN Web page, http://hubin.org.</li><br><li>Hand, D., Mannila, H.& Smyth, P. (2001). Principles of data mining. Cambridge, MA:
+                    MIT Press.</li><br><li>Heckerman, D. (1997). Bayesian networks for data mining. Data Mining and Knowledge
+                    Discovery 1, 79-119.</li><br><li>Jaynes, E. T. (2003). Probability theory: The logic of science. Cambridge University
+                    Press, ISBN: 0521592712.</li><br><li>Kumar, R., Raghavan, P., Rajagopalan, S., & Tomkins, A. (2001). Recommendation
+systems: A probabilistic analysis. JCSS: Journal of Computer and System
+                    Sciences 63(1): 42–61.</li><br><li>Lauritzen, S. L. (1996), Graphical models. Oxford, UK: Clarendon Press.
+Madigan, D. & Raftery, A.E. (1994). Model selection and accounting for model uncertainty in graphical models using Occam’s window. J. American Statistical Ass. 428,
+                    1535–1546.</li><br><li>Pearl, J. (2000). Causality: Models, reasoning, and inference. Cambridge, UK: Cambridge University Press.</li><br><li>Ramoni, M. & Sebastiani,P. (1998). Parameter estimation in Bayesian networks from
+                    incomplete databases. Intelligent Data Analysis, 2(1).</li><br><li>Rose, D. J. (1970). Triangulated graphs and the elimination process. J. Math. Anal. Appl.
+                    32, 597–609.</li><br><li>, R. (2000). On the probability of observing misleading statistical evidence (with
+                    discussion). J. American Statistical Ass. 95, 760–780</li><br><li> L. (1954). Foundations of statistics. New York: John Wiley & Sons.
+Shafer, G. (1976. A mathematical theory of evidence. Princeton, NJ: Princeton University
+                    Press</li><br><li>Wilson, N. (1996).Extended probability. In Proceedings of the 12th European Conference on Artificial Intelligence, Budapest, Hungary. Chichester: John Wiley and
+                    Sons, pp. 667–671.</li></ul>
+            
+        </center>
+        
+    </body>
+
+</html>
